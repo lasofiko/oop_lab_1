@@ -1,0 +1,300 @@
+Start testing: Sep 17 16:45 RTZ 2 (çèìà)
+----------------------------------------------------------
+1/11 Testing: MatrixTest.Create
+1/11 Test: MatrixTest.Create
+Command: "C:/OOP/laba_1/oop_lab_1/build/Debug/tests.exe" "--gtest_filter=MatrixTest.Create" "--gtest_also_run_disabled_tests"
+Directory: C:/OOP/laba_1/oop_lab_1/build
+"MatrixTest.Create" start time: Sep 17 16:45 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\OOP\laba_1\oop_lab_1\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = MatrixTest.Create
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MatrixTest
+[ RUN      ] MatrixTest.Create
+[       OK ] MatrixTest.Create (0 ms)
+[----------] 1 test from MatrixTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"MatrixTest.Create" end time: Sep 17 16:45 RTZ 2 (çèìà)
+"MatrixTest.Create" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/11 Testing: MatrixTest.Fill
+2/11 Test: MatrixTest.Fill
+Command: "C:/OOP/laba_1/oop_lab_1/build/Debug/tests.exe" "--gtest_filter=MatrixTest.Fill" "--gtest_also_run_disabled_tests"
+Directory: C:/OOP/laba_1/oop_lab_1/build
+"MatrixTest.Fill" start time: Sep 17 16:45 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\OOP\laba_1\oop_lab_1\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = MatrixTest.Fill
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MatrixTest
+[ RUN      ] MatrixTest.Fill
+[       OK ] MatrixTest.Fill (0 ms)
+[----------] 1 test from MatrixTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"MatrixTest.Fill" end time: Sep 17 16:45 RTZ 2 (çèìà)
+"MatrixTest.Fill" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/11 Testing: SpiralTest.OneByOne
+3/11 Test: SpiralTest.OneByOne
+Command: "C:/OOP/laba_1/oop_lab_1/build/Debug/tests.exe" "--gtest_filter=SpiralTest.OneByOne" "--gtest_also_run_disabled_tests"
+Directory: C:/OOP/laba_1/oop_lab_1/build
+"SpiralTest.OneByOne" start time: Sep 17 16:45 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\OOP\laba_1\oop_lab_1\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = SpiralTest.OneByOne
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpiralTest
+[ RUN      ] SpiralTest.OneByOne
+[       OK ] SpiralTest.OneByOne (0 ms)
+[----------] 1 test from SpiralTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"SpiralTest.OneByOne" end time: Sep 17 16:45 RTZ 2 (çèìà)
+"SpiralTest.OneByOne" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/11 Testing: SpiralTest.OneRow
+4/11 Test: SpiralTest.OneRow
+Command: "C:/OOP/laba_1/oop_lab_1/build/Debug/tests.exe" "--gtest_filter=SpiralTest.OneRow" "--gtest_also_run_disabled_tests"
+Directory: C:/OOP/laba_1/oop_lab_1/build
+"SpiralTest.OneRow" start time: Sep 17 16:45 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\OOP\laba_1\oop_lab_1\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = SpiralTest.OneRow
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpiralTest
+[ RUN      ] SpiralTest.OneRow
+[       OK ] SpiralTest.OneRow (0 ms)
+[----------] 1 test from SpiralTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"SpiralTest.OneRow" end time: Sep 17 16:45 RTZ 2 (çèìà)
+"SpiralTest.OneRow" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/11 Testing: SpiralTest.OneColumn
+5/11 Test: SpiralTest.OneColumn
+Command: "C:/OOP/laba_1/oop_lab_1/build/Debug/tests.exe" "--gtest_filter=SpiralTest.OneColumn" "--gtest_also_run_disabled_tests"
+Directory: C:/OOP/laba_1/oop_lab_1/build
+"SpiralTest.OneColumn" start time: Sep 17 16:45 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\OOP\laba_1\oop_lab_1\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = SpiralTest.OneColumn
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpiralTest
+[ RUN      ] SpiralTest.OneColumn
+[       OK ] SpiralTest.OneColumn (0 ms)
+[----------] 1 test from SpiralTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"SpiralTest.OneColumn" end time: Sep 17 16:45 RTZ 2 (çèìà)
+"SpiralTest.OneColumn" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/11 Testing: SpiralTest.TwoByTwo
+6/11 Test: SpiralTest.TwoByTwo
+Command: "C:/OOP/laba_1/oop_lab_1/build/Debug/tests.exe" "--gtest_filter=SpiralTest.TwoByTwo" "--gtest_also_run_disabled_tests"
+Directory: C:/OOP/laba_1/oop_lab_1/build
+"SpiralTest.TwoByTwo" start time: Sep 17 16:45 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\OOP\laba_1\oop_lab_1\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = SpiralTest.TwoByTwo
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpiralTest
+[ RUN      ] SpiralTest.TwoByTwo
+[       OK ] SpiralTest.TwoByTwo (0 ms)
+[----------] 1 test from SpiralTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SpiralTest.TwoByTwo" end time: Sep 17 16:45 RTZ 2 (çèìà)
+"SpiralTest.TwoByTwo" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/11 Testing: SpiralTest.ThreeByThree
+7/11 Test: SpiralTest.ThreeByThree
+Command: "C:/OOP/laba_1/oop_lab_1/build/Debug/tests.exe" "--gtest_filter=SpiralTest.ThreeByThree" "--gtest_also_run_disabled_tests"
+Directory: C:/OOP/laba_1/oop_lab_1/build
+"SpiralTest.ThreeByThree" start time: Sep 17 16:45 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\OOP\laba_1\oop_lab_1\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = SpiralTest.ThreeByThree
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpiralTest
+[ RUN      ] SpiralTest.ThreeByThree
+[       OK ] SpiralTest.ThreeByThree (0 ms)
+[----------] 1 test from SpiralTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SpiralTest.ThreeByThree" end time: Sep 17 16:45 RTZ 2 (çèìà)
+"SpiralTest.ThreeByThree" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/11 Testing: SpiralTest.TwoByThree
+8/11 Test: SpiralTest.TwoByThree
+Command: "C:/OOP/laba_1/oop_lab_1/build/Debug/tests.exe" "--gtest_filter=SpiralTest.TwoByThree" "--gtest_also_run_disabled_tests"
+Directory: C:/OOP/laba_1/oop_lab_1/build
+"SpiralTest.TwoByThree" start time: Sep 17 16:45 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\OOP\laba_1\oop_lab_1\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = SpiralTest.TwoByThree
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpiralTest
+[ RUN      ] SpiralTest.TwoByThree
+[       OK ] SpiralTest.TwoByThree (0 ms)
+[----------] 1 test from SpiralTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SpiralTest.TwoByThree" end time: Sep 17 16:45 RTZ 2 (çèìà)
+"SpiralTest.TwoByThree" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/11 Testing: SpiralTest.ThreeByTwo
+9/11 Test: SpiralTest.ThreeByTwo
+Command: "C:/OOP/laba_1/oop_lab_1/build/Debug/tests.exe" "--gtest_filter=SpiralTest.ThreeByTwo" "--gtest_also_run_disabled_tests"
+Directory: C:/OOP/laba_1/oop_lab_1/build
+"SpiralTest.ThreeByTwo" start time: Sep 17 16:45 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\OOP\laba_1\oop_lab_1\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = SpiralTest.ThreeByTwo
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpiralTest
+[ RUN      ] SpiralTest.ThreeByTwo
+[       OK ] SpiralTest.ThreeByTwo (0 ms)
+[----------] 1 test from SpiralTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SpiralTest.ThreeByTwo" end time: Sep 17 16:45 RTZ 2 (çèìà)
+"SpiralTest.ThreeByTwo" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/11 Testing: SpiralTest.EmptyMatrix
+10/11 Test: SpiralTest.EmptyMatrix
+Command: "C:/OOP/laba_1/oop_lab_1/build/Debug/tests.exe" "--gtest_filter=SpiralTest.EmptyMatrix" "--gtest_also_run_disabled_tests"
+Directory: C:/OOP/laba_1/oop_lab_1/build
+"SpiralTest.EmptyMatrix" start time: Sep 17 16:45 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\OOP\laba_1\oop_lab_1\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = SpiralTest.EmptyMatrix
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpiralTest
+[ RUN      ] SpiralTest.EmptyMatrix
+[       OK ] SpiralTest.EmptyMatrix (0 ms)
+[----------] 1 test from SpiralTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SpiralTest.EmptyMatrix" end time: Sep 17 16:45 RTZ 2 (çèìà)
+"SpiralTest.EmptyMatrix" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/11 Testing: SpiralTest.FourByFour
+11/11 Test: SpiralTest.FourByFour
+Command: "C:/OOP/laba_1/oop_lab_1/build/Debug/tests.exe" "--gtest_filter=SpiralTest.FourByFour" "--gtest_also_run_disabled_tests"
+Directory: C:/OOP/laba_1/oop_lab_1/build
+"SpiralTest.FourByFour" start time: Sep 17 16:45 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\OOP\laba_1\oop_lab_1\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = SpiralTest.FourByFour
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpiralTest
+[ RUN      ] SpiralTest.FourByFour
+[       OK ] SpiralTest.FourByFour (0 ms)
+[----------] 1 test from SpiralTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SpiralTest.FourByFour" end time: Sep 17 16:45 RTZ 2 (çèìà)
+"SpiralTest.FourByFour" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 17 16:45 RTZ 2 (çèìà)

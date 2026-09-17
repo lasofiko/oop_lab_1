@@ -1,0 +1,10 @@
+^C:\OOP\LABA_1\OOP_LAB_1\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/OOP/laba_1/oop_lab_1 -BC:/OOP/laba_1/oop_lab_1/build --check-stamp-file C:/OOP/laba_1/oop_lab_1/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

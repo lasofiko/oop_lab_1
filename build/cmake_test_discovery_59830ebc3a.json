@@ -1,0 +1,73 @@
+{
+  "tests": 11,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "MatrixTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "Create",
+          "file": "C:\\OOP\\laba_1\\oop_lab_1\\test_variant.cpp",
+          "line": 4
+        },
+        {
+          "name": "Fill",
+          "file": "C:\\OOP\\laba_1\\oop_lab_1\\test_variant.cpp",
+          "line": 16
+        }
+      ]
+    },
+    {
+      "name": "SpiralTest",
+      "tests": 9,
+      "testsuite": [
+        {
+          "name": "OneByOne",
+          "file": "C:\\OOP\\laba_1\\oop_lab_1\\test_variant.cpp",
+          "line": 33
+        },
+        {
+          "name": "OneRow",
+          "file": "C:\\OOP\\laba_1\\oop_lab_1\\test_variant.cpp",
+          "line": 49
+        },
+        {
+          "name": "OneColumn",
+          "file": "C:\\OOP\\laba_1\\oop_lab_1\\test_variant.cpp",
+          "line": 72
+        },
+        {
+          "name": "TwoByTwo",
+          "file": "C:\\OOP\\laba_1\\oop_lab_1\\test_variant.cpp",
+          "line": 95
+        },
+        {
+          "name": "ThreeByThree",
+          "file": "C:\\OOP\\laba_1\\oop_lab_1\\test_variant.cpp",
+          "line": 120
+        },
+        {
+          "name": "TwoByThree",
+          "file": "C:\\OOP\\laba_1\\oop_lab_1\\test_variant.cpp",
+          "line": 155
+        },
+        {
+          "name": "ThreeByTwo",
+          "file": "C:\\OOP\\laba_1\\oop_lab_1\\test_variant.cpp",
+          "line": 189
+        },
+        {
+          "name": "EmptyMatrix",
+          "file": "C:\\OOP\\laba_1\\oop_lab_1\\test_variant.cpp",
+          "line": 223
+        },
+        {
+          "name": "FourByFour",
+          "file": "C:\\OOP\\laba_1\\oop_lab_1\\test_variant.cpp",
+          "line": 234
+        }
+      ]
+    }
+  ]
+}
