@@ -18,27 +18,25 @@ int main()
     std::size_t n = 0, m = 0,t;
     int** a=nullptr;
 
-    while(true){
+    while(true)
+    {
         print();
         std:: cin>>t;
         if (t==0)
-        {
             break;
-        }
+
         else if(t==1)
         {
                 if (a == nullptr)
                     std::cout << "Матрица не создана\n";
-                
                 else
                     matrix_print(a, n, m);
         }
+
         else if (t == 2)
             {
                 if (a == nullptr)
-                {
                     std::cout << "Матрица не создана\n";
-                }
                 else
                 {
                     std::cout << "Введите элементы матрицы:\n";
@@ -53,12 +51,11 @@ int main()
                     matrix_delete(a, n);
                     a = nullptr;
                 }
-
-                std::cout << "Введите количество строк и столбцов\n";
+                std::cout << "Введите количество строк и столбцов (положительные значения)\n";
                 std::cin >> n >> m;
-
                 a = matrix_create(n, m);
         }
+
         else if(t==4)
         {
                 if (a == nullptr)

@@ -3,11 +3,17 @@
 
 int** matrix_create(std::size_t n, std::size_t m)
 {
-    int** a=new int*[n];
-    for(std:: size_t i=0;i<n;++i)
-    {
-        a[i]=new int[m]; 
+    int** a = new int*[n]{};
+
+    try {
+        for (std::size_t i = 0; i < n; ++i)
+            a[i] = new int[m];
     }
+    catch (...) {
+        matrix_delete(a, n);
+        throw;
+    }
+
     return a;
 }
 void matrix_delete(int** a, std::size_t n)
@@ -16,21 +22,15 @@ void matrix_delete(int** a, std::size_t n)
         return;
 
     for (std::size_t i = 0; i < n; ++i)
-    {
         delete[] a[i];
-    }
 
     delete[] a;
 }
 void matrix_fill(int** a, std::size_t n, std::size_t m)
 {
     for (std::size_t i = 0; i < n; ++i)
-    {
         for (std::size_t j = 0; j < m; ++j)
-        {
             std::cin >> a[i][j];
-        }
-    }
 }
 void matrix_print(const int* const* a, std::size_t n, std::size_t m)
 {
@@ -38,6 +38,7 @@ void matrix_print(const int* const* a, std::size_t n, std::size_t m)
     {
         for(std:: size_t j=0;j<m;++j)
             std:: cout<<a[i][j]<<" ";
+
         std:: cout<<"\n";
     }
 }

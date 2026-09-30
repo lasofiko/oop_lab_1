@@ -1,4 +1,6 @@
 #include <gtest/gtest.h>
+#include <iostream>
+#include <sstream>
 #include "matrix_ops.h"
 
 TEST(MatrixTest, Create)
@@ -12,15 +14,16 @@ TEST(MatrixTest, Create)
     matrix_delete(a, 2);
 }
 
-
 TEST(MatrixTest, Fill)
 {
     int** a = matrix_create(2, 2);
 
-    a[0][0] = 1;
-    a[0][1] = 2;
-    a[1][0] = 3;
-    a[1][1] = 4;
+    std::istringstream input("1 2 3 4");
+    auto* original_buffer = std::cin.rdbuf(input.rdbuf());
+
+    matrix_fill(a, 2, 2);
+
+    std::cin.rdbuf(original_buffer);
 
     EXPECT_EQ(a[0][0], 1);
     EXPECT_EQ(a[0][1], 2);
