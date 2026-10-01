@@ -1,6 +1,7 @@
 #include <iostream>
 #include <windows.h>
 #include "matrix_ops.h"
+#include <limits>
 
 void print()
 {
@@ -21,7 +22,18 @@ int main()
     while(true)
     {
         print();
-        std:: cin>>t;
+        if (!(std::cin >> t))
+{
+    if (std::cin.eof())
+        break;
+
+    std::cin.clear();
+    std::cin.ignore(
+        std::numeric_limits<std::streamsize>::max(), '\n');
+
+    std::cout << "Ошибка! Введите число.\n";
+    continue;
+}
         if (t==0)
             break;
 

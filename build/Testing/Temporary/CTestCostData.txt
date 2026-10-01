@@ -1,12 +1,12 @@
-MatrixTest.Create 1 0.0328947
-MatrixTest.Fill 1 0.0394799
-SpiralTest.OneByOne 1 0.0430372
-SpiralTest.OneRow 1 0.0407321
-SpiralTest.OneColumn 1 0.0380236
-SpiralTest.TwoByTwo 1 0.0303591
-SpiralTest.ThreeByThree 1 0.0296734
-SpiralTest.TwoByThree 1 0.0311182
-SpiralTest.ThreeByTwo 1 0.0302859
-SpiralTest.EmptyMatrix 1 0.0316311
-SpiralTest.FourByFour 1 0.0283254
+MatrixTest.Create 3 0.0163487
+MatrixTest.Fill 3 0.0145214
+SpiralTest.OneByOne 3 0.0118123
+SpiralTest.OneRow 3 0.012201
+SpiralTest.OneColumn 3 0.0117372
+SpiralTest.TwoByTwo 3 0.0133946
+SpiralTest.ThreeByThree 3 0.0120787
+SpiralTest.TwoByThree 3 0.0135492
+SpiralTest.ThreeByTwo 3 0.0130589
+SpiralTest.EmptyMatrix 3 0.0168808
+SpiralTest.FourByFour 3 0.014501
 ---
