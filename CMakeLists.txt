@@ -19,7 +19,7 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(googletest)
 
 add_executable(tests
-    test_variant.cpp
+    tests.cpp
     matrix_ops.cpp
 )
 
